@@ -13,6 +13,8 @@
 		B6024BF221562CCF006FFDC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6024BF121562CCF006FFDC6 /* Assets.xcassets */; };
 		B6024BF521562CCF006FFDC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6024BF321562CCF006FFDC6 /* LaunchScreen.storyboard */; };
 		B6024C0021562CD0006FFDC6 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6024BFF21562CD0006FFDC6 /* FoodTrackerTests.swift */; };
+		B6024C0B215657FF006FFDC6 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6024C0A215657FF006FFDC6 /* RatingControl.swift */; };
+		B6024C0D2158C264006FFDC6 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6024C0C2158C264006FFDC6 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		B6024BFB21562CD0006FFDC6 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6024BFF21562CD0006FFDC6 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		B6024C0121562CD0006FFDC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6024C0A215657FF006FFDC6 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		B6024C0C2158C264006FFDC6 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,9 @@
 			children = (
 				B6024BEA21562CCA006FFDC6 /* AppDelegate.swift */,
 				B6024BEC21562CCA006FFDC6 /* ViewController.swift */,
+				B6024C0C2158C264006FFDC6 /* Meal.swift */,
 				B6024BEE21562CCA006FFDC6 /* Main.storyboard */,
+				B6024C0A215657FF006FFDC6 /* RatingControl.swift */,
 				B6024BF121562CCF006FFDC6 /* Assets.xcassets */,
 				B6024BF321562CCF006FFDC6 /* LaunchScreen.storyboard */,
 				B6024BF621562CCF006FFDC6 /* Info.plist */,
@@ -198,6 +204,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6024BED21562CCA006FFDC6 /* ViewController.swift in Sources */,
+				B6024C0D2158C264006FFDC6 /* Meal.swift in Sources */,
+				B6024C0B215657FF006FFDC6 /* RatingControl.swift in Sources */,
 				B6024BEB21562CCA006FFDC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
